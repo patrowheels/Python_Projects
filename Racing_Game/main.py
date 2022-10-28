@@ -2,7 +2,7 @@ import pygame
 import random
 from car import Car
 pygame.init()
-
+#
 
 # Define some colors
 BLACK = (0, 0, 0)
@@ -71,6 +71,7 @@ clock = pygame.time.Clock()
 def create_road(screen, color, dict, border_width):
     # The you can draw different shapes and lines or add text to your background stage.
     pygame.draw.rect(screen, color, dict, border_width)
+
 
     # -------- Main Program Loop -----------
 while carryOn:
