@@ -7,3 +7,4 @@ app = create_app()
 if __name__ == '__main__':
     # this runs the server and anytime we make a change debug==True will re run the server
     app.run(debug=True)
+#
